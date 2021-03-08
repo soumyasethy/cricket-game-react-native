@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  StatusBar,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import {SafeAreaView, StatusBar, Text, View} from 'react-native';
 import {playCricket} from './src/hooks/core_logic';
 import {appConstant} from './src/repo/data';
 import {ResultComponent} from './src/components/result_component';
